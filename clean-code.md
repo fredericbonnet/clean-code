@@ -2,6 +2,8 @@
 
 <img class="plain" src="img/clean_code_72_color.png">
 
+30 janvier 2020
+
 ---
 
 ## Origines
