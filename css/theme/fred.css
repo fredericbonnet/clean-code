@@ -281,6 +281,9 @@ body {
   .backgrounds {
     background-color: #f7f3de; } }
 
+.reveal pre {
+  width: 95%; }
+
 .reveal pre code {
   padding: 0.5em;
   max-height: 90%; }

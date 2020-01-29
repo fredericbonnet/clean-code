@@ -49,6 +49,9 @@ $codeFont: "Consolas", monospace;
 // ---------------------------------------------
 
 // Override theme
+.reveal pre {
+  width: 95%;
+}
 .reveal pre code {
   padding: 0.5em;
   max-height: 90%;
