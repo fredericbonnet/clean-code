@@ -56,3 +56,6 @@ $codeFont: "Consolas", monospace;
   padding: 0.5em;
   max-height: 90%;
 }
+.print-pdf .reveal pre code {
+  font-family: $codeFont !important;
+}
