@@ -55,8 +55,30 @@
           { src: "plugin/markdown/markdown.js" },
           { src: "plugin/highlight/highlight.js" },
           { src: "plugin/notes/notes.js", async: true },
-          { src: "plugin/zoom-js/zoom.js", async: true }
-        ]
+          { src: "plugin/zoom-js/zoom.js", async: true },
+          { src: "plugin/tableofcontents/tableofcontents.js", async: true }
+        ],
+        tableofcontents: {
+          // Specifies the slide title of the table of contents slide
+          title: "Plan de la formation",
+
+          // Specifies the position of the table of contents slide in the presentation
+          // position: 2,
+
+          // Specifies html tag in which the table of contents title stands
+          titleTag: "h2",
+
+          // Specifies which slide tag elements will be used
+          // for generating the table of contents.
+          titleTagSelector: "h1, h2",
+
+          // Specifies if the first slide, mostly the title slide of the presentation, should be ignored.
+          ignoreFirstSlide: true,
+
+          // Specifies if every single element of the table of contents
+          // will be stepped through before moving on to the next slide.
+          fadeInElements: true
+        }
       });
     </script>
   </body>
