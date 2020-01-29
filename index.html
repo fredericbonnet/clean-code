@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/reveal.css" />
-    <link rel="stylesheet" href="css/theme/beige.css" />
+    <link rel="stylesheet" href="css/theme/fred.css" />
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/monokai.css" />
@@ -30,7 +30,10 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown="clean-code.md">
+        <section
+          data-markdown="clean-code.md"
+          data-separator-vertical="^\r?\n===\r?\n$"
+        >
           <!--
 	   Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
 	   For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
